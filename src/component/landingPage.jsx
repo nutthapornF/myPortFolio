@@ -31,7 +31,6 @@ export function LandingPagr() {
       </div>
       <div className="myworkZone">
         {myWork?.map((work, i) => {
-          // console.log(work);
           return <Mywork data={work} key={i} />;
         })}
       </div>

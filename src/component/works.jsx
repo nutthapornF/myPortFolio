@@ -2,17 +2,16 @@ import { useState } from "react";
 
 export function Mywork(data) {
   const [work, setWork] = useState(data?.data);
-  console.log(work?.url);
   return (
     <div className="Blog">
-      <img className="mainBlogImg" src={work?.img} alt="mainJob" />
+      <img className="mainBlogImg" src={work?.img} />
       <div className="blogInfo">
         <h2 className="H2">{work?.topic}</h2>
 
-        {work?.credit?.map((name, i) => {
+        {work?.credit?.map((name) => {
           return (
             <>
-              <h5 className="H6" key={i}>
+              <h5 className="H6" key={name[0]}>
                 {name?.lenght > 1 ? name : `${name},`}
               </h5>
             </>
