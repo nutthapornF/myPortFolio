@@ -32,7 +32,7 @@ export const myPreviosWork = [
     topic: "My-travel-Blog",
     credit: ["NikkiF (me)"],
     about:
-      "my travel journal website that I create to share my travel experiences.",
+      "my travel journal website that I create to share my travel experiences. using MERN stack ",
     gitHub: "https://github.com/nutthapornF/My-travel-Blog",
     url: "",
   },
